@@ -58,6 +58,9 @@ $Label4.UseCompatibleTextRendering = $true
 #
 #PictureBox1
 #
+$Picture = (get-item ("$PSScriptRoot\logo.bmp"))
+$img = [System.Drawing.Image]::Fromfile($Picture)
+$PictureBox1.Image = $img
 $PictureBox1.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]12,[System.Int32]12))
 $PictureBox1.Name = [System.String]'PictureBox1'
 $PictureBox1.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]202,[System.Int32]97))
