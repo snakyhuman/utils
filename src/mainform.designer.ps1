@@ -198,6 +198,7 @@ $ImportCertificate.TabIndex = [System.Int32]14
 $ImportCertificate.Text = [System.String]'Import Certificate'
 $ImportCertificate.UseCompatibleTextRendering = $true
 $ImportCertificate.UseVisualStyleBackColor = $true
+$ImportCertificate.add_Click({import_cer_Click})
 #
 #manageIIS
 #

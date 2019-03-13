@@ -1,3 +1,5 @@
+. "$PSScriptRoot\events.ps1" -Local 1
+
 $iisform = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.Label]$Label1 = $null
 [System.Windows.Forms.Label]$Label2 = $null

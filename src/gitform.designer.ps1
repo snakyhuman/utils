@@ -1,3 +1,5 @@
+. "$PSScriptRoot\events.ps1" -Local 1
+
 $gitform = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.Button]$Checkout = $null
 [System.Windows.Forms.TextBox]$userEmail = $null
